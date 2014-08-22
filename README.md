@@ -27,6 +27,17 @@ if (deviceHasChrome) {
 
 ![](https://raw.github.com/intentkit/IntentKit/master/example.gif)
 
+[oxen](https://github.com/jacksonh/oxen) - Observable collection in iOS.
+
+```objc
+self.array.onCollectionChanged = ^(id<OXNChangeInfo> change) {
+    self.itemsArray = change.currentArray;
+    if ([change isKindOfClass:[OXNItemAddedChangeInfo class]]) {
+        [self.collectionView inserItemAtIndex:[NSIndexPath indexPathForItem:change.index inSection:1]];
+    }
+};
+```
+
 [rdotm](https://github.com/ksoichiro/rdotm) - R.java in iOS!
 
 ![](https://github.com/ksoichiro/rdotm/raw/master/testdata/images/demo.gif)
