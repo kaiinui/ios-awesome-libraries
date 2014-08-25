@@ -41,3 +41,10 @@ self.array.onCollectionChanged = ^(id<OXNChangeInfo> change) {
 [rdotm](https://github.com/ksoichiro/rdotm) - R.java in iOS!
 
 ![](https://github.com/ksoichiro/rdotm/raw/master/testdata/images/demo.gif)
+
+Testing
+===
+
+- [UI Auto Monkey](https://github.com/jonathanpenn/ui-auto-monkey)
+
+[Screencast](http://vimeo.com/channels/trianglecocoa/54727965)
