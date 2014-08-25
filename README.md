@@ -45,6 +45,27 @@ self.array.onCollectionChanged = ^(id<OXNChangeInfo> change) {
 Testing
 ===
 
+- [Specta](https://github.com/specta/specta) & [Expecta](https://github.com/specta/expecta)
+
+```objc
+describe(@"Foo", ^{
+  beforeAll(^{
+    // All asynchronous matching using `will` and `willNot`
+    // will have a timeout of 2.0 seconds
+    [Expecta setAsynchronousTestTimeout:2];
+  });
+  
+  if(@"foo should be foo", ^{
+    expect(@"foo").to.equal(@"foo");
+  });
+
+  it(@"will not be nil", ^{
+    // Test case where default timeout is used
+    expect(foo).willNot.beNil();
+  });
+});
+```
+
 - [UI Auto Monkey](https://github.com/jonathanpenn/ui-auto-monkey)
 
 [Screencast](http://vimeo.com/channels/trianglecocoa/54727965)
