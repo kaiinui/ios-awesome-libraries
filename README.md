@@ -66,6 +66,17 @@ describe(@"Foo", ^{
 });
 ```
 
+- [OCMockito](https://github.com/jonreid/OCMockito)
+
+```objc
+NSMutableArray *mockArray = mock([NSMutableArray class]);
+[mockArray addObject:@"one"];
+[verify(mockArray) addObject:@"one"];
+
+NSArray *mockArray = mock([NSArray class]);
+[given([mockArray objectAtIndex:0]) willReturn:@"first"];
+```
+
 - [UI Auto Monkey](https://github.com/jonathanpenn/ui-auto-monkey)
 
 [Screencast](http://vimeo.com/channels/trianglecocoa/54727965)
