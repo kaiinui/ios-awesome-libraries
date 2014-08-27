@@ -38,6 +38,16 @@ self.array.onCollectionChanged = ^(id<OXNChangeInfo> change) {
 };
 ```
 
+Asset
+---
+
+[LKAssetsLibrary](https://github.com/lakesoft/LKAssetsLibrary)
+
+![](https://github.com/lakesoft/LKAssetsLibrary/raw/master/Docs/LKAssetsLibrary-Pic2.png)
+
+Support
+---
+
 [rdotm](https://github.com/ksoichiro/rdotm) - R.java in iOS!
 
 ![](https://github.com/ksoichiro/rdotm/raw/master/testdata/images/demo.gif)
