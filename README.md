@@ -52,6 +52,10 @@ Support
 
 ![](https://github.com/ksoichiro/rdotm/raw/master/testdata/images/demo.gif)
 
+[Chameleon](https://github.com/VAlexander/Chameleon) - A Lightweight x Powerful Flat Color Framework
+
+![](https://camo.githubusercontent.com/2a1ed77e3950ac3908283d0a23970a6e1407e463/687474703a2f2f692e696d6775722e636f6d2f4873384943744a2e706e67)
+
 Testing
 ===
 
