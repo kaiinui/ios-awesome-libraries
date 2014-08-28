@@ -52,6 +52,10 @@ FBKVOController *KVOController = [FBKVOController controllerWithObserver:self];
 }];
 ```
 
+[ClusterPrePermissions](https://github.com/clusterinc/ClusterPrePermissions)
+
+![](https://camo.githubusercontent.com/7eef0b117818b9da198cfc850ce21171e4b9d204/687474703a2f2f662e636c2e6c792f6974656d732f32493156315233623371334133483379337531382f6e65772d312e6a7067)
+
 Asset
 ---
 
