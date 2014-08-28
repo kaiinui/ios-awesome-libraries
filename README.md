@@ -42,6 +42,16 @@ self.array.onCollectionChanged = ^(id<OXNChangeInfo> change) {
 };
 ```
 
+[KVOController](https://github.com/facebook/KVOController) - Super handy KVO.
+
+```objc
+FBKVOController *KVOController = [FBKVOController controllerWithObserver:self];
+[KVOController observe:clock keyPath:@"date" options:NSKeyValueObservingOptionInitial|NSKeyValueObservingOptionNew block:^(ClockView *clockView, Clock *clock, NSDictionary *change) {
+  // update clock view with new value
+  clockView.date = change[NSKeyValueChangeNewKey];
+}];
+```
+
 Asset
 ---
 
