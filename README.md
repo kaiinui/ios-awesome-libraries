@@ -3,6 +3,14 @@ ios-awesome-libraries
 
 Also in iOS, there are many awesome libraries!
 
+[pop](https://github.com/facebook/pop)
+
+```objc
+POPSpringAnimation *anim = [POPSpringAnimation animation];
+...
+[layer pop_addAnimation:anim forKey:@"myKey"];
+```
+
 [JGActionSheet](https://github.com/JonasGessner/JGActionSheet)
 
 <p align="center">
