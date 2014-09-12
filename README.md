@@ -50,6 +50,14 @@ self.array.onCollectionChanged = ^(id<OXNChangeInfo> change) {
 };
 ```
 
+[KeepLayout](https://github.com/iMartinKiss/KeepLayout) - Easy programmable AutoLayout.
+
+```objc
+[view keepSize:CGSizeMake(100, 200)];
+[view keepInsets:UIEdgeInsetsMake(10, 20, 30, 40)];
+[view keepCentered];
+```
+
 [KVOController](https://github.com/facebook/KVOController) - Super handy KVO.
 
 ```objc
