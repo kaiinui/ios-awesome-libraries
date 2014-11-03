@@ -3,6 +3,10 @@ ios-awesome-libraries
 
 Also in iOS, there are many awesome libraries!
 
+[RS3DSegmentedControl](https://github.com/rsoffer/RS3DSegmentedControl)
+
+![](https://camo.githubusercontent.com/3400bb08b831f99c1c34e340ab934be567be4ecf/68747470733a2f2f7261772e6769746875622e636f6d2f72736f666665722f525333445365676d656e746564436f6e74726f6c2f6d61737465722f73616d706c652e676966)
+
 [pop](https://github.com/facebook/pop)
 
 ```objc
